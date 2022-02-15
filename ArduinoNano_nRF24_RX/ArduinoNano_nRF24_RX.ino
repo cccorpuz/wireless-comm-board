@@ -36,7 +36,7 @@ void setup() {
     while (1) {} // hold in infinite loop
   }
   // Run I2C LCD, sensor, etc. here
-  lcd.begin(16, 2);         // Initialize the I2C LCD
+  lcd.begin();         // Initialize the I2C LCD
   lcd.home();
   lcd.backlight();
   //  lcd.cursor();
